@@ -35,7 +35,7 @@ body {
 
 
 /*Large devices */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.col-lg-3 {float:left;
 		 /*border: 1px solid green; */
 		width: 33.33%;
@@ -44,9 +44,7 @@ body {
 }
 
 /*Medium size devices*/
-@media (min-width: 992px) and (max-width:1199px) {
-/*@media (max-width:1199px) {*/
-
+@media (min-width: 768px) and (max-width:991px) {
 	.col-md-6 { float: left;
 		/*border: 1px solid green;*/
 		width: 50%;
@@ -62,7 +60,7 @@ body {
 
 
 /*Small devices */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
 	.col-sm-12 {
 		width: 100%;
 	}
