@@ -1,0 +1,48 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	border: 0px solid black; background-color: rgb(155,50,120);
+	margin: 0px; padding: 0px;
+}
+#header-nav { background-color: rgb(195,195,95); 
+	border-radius:0px;  /*Ensure that the edges are not curved.*/ 
+	border: 0px;
+}
+.navbar-brand a {
+	font-size: 1.75em;
+	color: rgb(100,120,165);
+	font-weight: bold;
+}
+.navbar-brand a:hover a:focus {
+	text-decoration: none;
+}
+#menulist {
+	text-align: center;
+	margin-top: 10px;
+}
+#menuitem {
+	border: 1px solid black;
+}
+#menulist a:hover {
+	background: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid rgb(155,50,120);
+}
+.itembox { border: 1px solid black;
+		background-color: rgb(195,195,195);
+		height: 550px;
+		width: 90%;
+		margin: 10px auto 20px; 
+}
+.itemtext { margin: 20px 10px 5px 10px;
+			font-family: Helvetica;
+			font-size: 1em;
+}
+.gototop {
+	margin-top: 20px; margin-right:10px;
+	font-size: .8em;
+	text-align:right; 
+}

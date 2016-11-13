@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= UTF-8>
+	<meta http-equiv="X-UA-Compatible" Content="IE-edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Assignment3 </title>
+	<link rel="stylesheet" ; href="css/bootstrap.min.css">
+	<link rel="stylesheet" ; href="css/assignment3.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<!-- navbar & navbar-default are bootstrap class and subclass to define a navigation bar -->
+	<nav id="header-nav" class="navbar navbar-default">
+	<div class="container">
+		<!-- "navbar" header is a bootstrap class. Check out getbootstrap.com/components and look for "navbar" -->
+		<div class="navbar-header">
+			<!-- "navbar-brand is a bootstrap class". Check out getbootstrap.com/components -->
+			 <!-- asigning a "visible-lg" class (bootstrap class) would make the content visible window
+			 size is set for large devices. -->
+			<div class="navbar-brand">
+			<a href="myfood.html">Food, LLC</a>
+			</div>
+			<!-- data-toggle is an HTM5 element which allows javascript plugins to be attached. code is available in bootstrap.js
+			aria-expanded is for screen reader -->
+			<button type="button" class="navbar-toggle collapsed"; data-toggle="collapse"; aria-expanded="false"; data-target="#mycollapsable-nav">
+				<span class="sr-only"> Toggle navigation </span> <!-- "sr-only" bootstrap class sets its content for screen readers only -->
+				<span class="icon-bar"></span>  <!-- "icon-bar" bootstrap class shows an bar icon in the button -->
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div id="mycollapsable-nav" class="collapse navbar-collapse">
+			<ul id="menulist"; class="nav navbar-nav navbar-right"> 
+				<li>
+					<a href="#itembox1"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">
+					Chicken
+					</a>
+				</li>
+				<li> <a href="#itembox2"><span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">
+					Beef
+					</a>
+				</li>
+				<li> <a href="#itembox3"><span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">
+					Sushi
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>  <!-- container -->
+	</nav>	<!-- header-nav -->
+
+	<!-- "container" is a bootstrap class in which all our content is going to exist. Container class positions itself in the center of the browser window. "container-fluid" class will allow to stretch the content within it to ends of the browser window -->
+	<div id="main-content" class="container">
+		<h2 class="text-center"> Our Menu </h2>
+		<section class="row">
+			<div class="col-xs-12">
+				<div class="itembox"; id="itembox1">
+					<h3 class="text-center"> Chicken </h3>
+					<p class="itemtext"> The basic principles of good diets are so simple that I can summarize them in just ten words: eat less, move more, eat lots of fruits and vegetables. For additional clarification, a five-word modifier helps: go easy on junk foods. (Source:wikipedia)The basic principles of good diets are so simple that I can summarize them in just ten words: eat less, move more, eat lots of fruits and vegetables. For additional clarification, a five-word modifier helps: go easy on junk foods. (Source:wikipedia)The basic principles of good diets are so simple that I can summarize them in just ten words: eat less, move more, eat lots of fruits and vegetables. For additional clarification, a five-word modifier helps: go easy on junk foods. (Source:wikipedia)</p>
+					<div class="gototop"> <a href="#header-nav">Back To Top</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12">	
+				<div class="itembox"; id="itembox2">
+					<h3 class="text-center"> Beef </h3>
+					<p class="itemtext"> The basic principles of good diets are so simple that I can summarize them in just ten words: eat less, move more, eat lots of fruits and vegetables. For additional clarification, a five-word modifier helps: go easy on junk foods. (Source:wikipedia)</p>
+					<div class="gototop"> <a href="#header-nav">Back To Top</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12">	
+				<div class="itembox"; id="itembox3">
+					<h3 class="text-center"> Sushi </h3>
+					<p class="itemtext"> The basic principles of good diets are so simple that I can summarize them in just ten words: eat less, move more, eat lots of fruits and vegetables. For additional clarification, a five-word modifier helps: go easy on junk foods. (Source:wikipedia)</p>
+					<div class="gototop"> <a href="#header-nav">Back To Top</a> </div>
+				</div>
+			</div>
+		</section>  <!-- row -->
+	</div>  <!-- container -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
