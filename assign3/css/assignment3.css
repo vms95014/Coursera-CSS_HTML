@@ -20,10 +20,16 @@ body {
 }
 #menulist {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 0px; margin-bottom:0px;
+	background-color: rgb(209,211,181);
 }
-#menuitem {
+.menuitem {
+	/*border: 1px solid black;*/
+	color: blue; rgb(100,100,200);
+}
+.menuline {
 	border: 1px solid black;
+	margin: 0 0 0 0;
 }
 #menulist a:hover {
 	background: white;
