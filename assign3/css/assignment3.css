@@ -19,7 +19,7 @@ body {
 	text-decoration: none;
 }
 #menulist {
-	text-align: center;
+	/*text-align: center;*/
 	margin-top: 0px; margin-bottom:0px;
 	background-color: rgb(209,211,181);
 }
@@ -40,7 +40,7 @@ body {
 .itembox { border: 1px solid black;
 		background-color: rgb(195,195,195);
 		height: 550px;
-		width: 90%;
+		width: 100%;
 		margin: 10px auto 20px; 
 }
 .itemtext { margin: 20px 10px 5px 10px;
